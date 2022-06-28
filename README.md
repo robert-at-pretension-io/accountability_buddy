@@ -1,26 +1,38 @@
-# accountability_buddy
-A simple ai that helps with keeping up with solutions to life's problems.
+# create-svelte
 
-# Motivation
-* We will be exploring "jamstack" which can be a number of different technologies. In order to learn about the most popular jamstack by time of writing, Next.js will be used. This is the most up-to-date list: https://jamstack.org/generators/ .
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-# Goals
-* Learn about the different technologies used in the jamstack.
+## Creating a project
 
-# Technologies Used
-* Next.js
-* React (latest as of this writing) V 18.0
-* Typescript
-* Temporal.io -- Used for scheduling checkin texts
-* Openai -- Used for the AI that generates helpful solutions
+If you're seeing this, you've probably already done this step. Congrats!
 
-# Tech stretch goals *After the basic app is working, I want to add the following features:*
-* Auth0 : Add authentication to the app so paid subscriptions work.
-* Twilio : Texting check-in.
+```bash
+# create a new project in the current directory
+npm init svelte
 
-# Need to know:
-* How to create a private beta
+# create a new project in my-app
+npm init svelte my-app
+```
 
+## Developing
 
-# Technologies Considered
-* Storybook -- Instead of using this out of the gate, will try to migrate to this after the project is complete.
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
