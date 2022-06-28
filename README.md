@@ -6,7 +6,6 @@ A simple ai that helps with keeping up with solutions to life's problems.
 
 # Goals
 * Learn about the different technologies used in the jamstack.
-* Us
 
 # Technologies Used
 * Next.js
@@ -15,8 +14,7 @@ A simple ai that helps with keeping up with solutions to life's problems.
 * Temporal.io -- Used for scheduling checkin texts
 * Openai -- Used for the AI that generates helpful solutions
 
-# Tech stretch goals
-* After the basic app is working, I want to add the following features:
+# Tech stretch goals *After the basic app is working, I want to add the following features:*
 * Auth0 : Add authentication to the app so paid subscriptions work.
 * Twilio : Texting check-in.
 
