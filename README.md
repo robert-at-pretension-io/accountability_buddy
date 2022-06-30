@@ -10,9 +10,10 @@ A simple ai that helps with keeping up with solutions to life's problems.
 # Technologies Used
 * ~~Next.js~~
 * ~~React (latest as of this writing) V 18.0~~
-* Sveltekit -- Easiest for "just plain html/js/css" simple websites
 * ~~Storybook -- Shows the different components in the app~~ (Doesn't play well with sveltekit)
 * Typescript
+* Sveltekit -- Easiest for "just plain html/js/css" simple websites
+* Playwright -- for easy testing of the app
 * Auth0 -- Add authentication to the app so paid subscriptions work.
 * Temporal.io -- Used for scheduling checkin texts
 * Openai -- Used for the AI that generates helpful solutions
