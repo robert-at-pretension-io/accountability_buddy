@@ -4,6 +4,6 @@
 
 [context.production]
   publish = "output/"
-  command = "make publish"
+  command = "npm run build"
   environment = { NODE_VERSION = "18.4.0" }
 
