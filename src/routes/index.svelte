@@ -20,22 +20,37 @@
 <!-- Below here we have a new text area where the user can describe the problems going on in their life. Hitting enter will submit these problems into the dialogue. -->
 
 <!-- The text area will submit when the enter button is hit -->
-<textarea class="iphone-text" bind:value={latest_entry}/>
+<textarea class="imessage" bind:value={latest_entry}/>
 <button on:click={add_to_dialogue}>Submit</button>
 
 
 <style>
 
-.iphone-text {
-    width: 95%;
-    height: 100px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-    resize: none;
+.imessage {
+  background-color: #fff;
+  border: 1px solid #e5e5ea;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "SanFrancisco";
+  font-size: 1.25rem;
+  margin: 0 auto 1rem;
+  max-width: 600px;
+  padding: 0.5rem 1.5rem;
+  width: 90%;
+  resize: none;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .imessage {
+    font-size: 1.05rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    padding: 0.25rem 0.875rem;
+  }
+
 }
 
 </style>
