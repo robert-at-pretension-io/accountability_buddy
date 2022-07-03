@@ -4,10 +4,10 @@ const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
-const response = await openai.listEngines();
 
 // Define the get route
-export function get() {
+export async function get() {
+    const response = await openai.listEngines();
     return {
         statusCode: 200,
         body: response.data,
